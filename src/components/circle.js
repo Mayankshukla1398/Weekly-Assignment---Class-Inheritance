@@ -1,17 +1,10 @@
-// import using require
-
+import Shape from './shape.js'
 // declare class
-import { Shape } from "./shape";
 
-// declare class
-class Circle extends Shape {
-  calculateArea() {
-    console.log("cal in circle");
-  }
+ export default class Circle extends Shape{
+     
+     calculateArea(){
+       
+     }
+  
 }
-
-// export class using module.exports
-module.exports = Circle;
-
-
-// export class using module.exports
