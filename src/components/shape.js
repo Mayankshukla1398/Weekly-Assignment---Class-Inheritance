@@ -1,15 +1,23 @@
-class Shape {
-  constructor() {
-    this.color = "blue";
-  }
+import React, { Component } from "react";
 
+class Shape extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { color: "red" };
+  }
   drawShape() {
-    console.log("draw shape");
+    return "Shape";
   }
-
   calculateArea() {
-    console.log("shape calc area");
+    return "Area";
+  }
+  render() {
+    return (
+      <div>
+        Area:{this.calculateArea()} shape:{this.drawShape()}
+      </div>
+    );
   }
 }
 
-module.exports = Shape;
+export default Shape;
