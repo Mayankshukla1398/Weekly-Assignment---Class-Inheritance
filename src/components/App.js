@@ -1,7 +1,8 @@
-import React from "react";
+const React =require("react");
+const Shape = require("./shape");
+const Circle = require("./circle");
 
-
-export default function App() {
+ function App() {
   return (
     <div>
     <Shape/>
@@ -9,3 +10,4 @@ export default function App() {
     </div>
   );
 }
+module.exports=App
