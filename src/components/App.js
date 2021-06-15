@@ -1,13 +1,20 @@
-const React =require("react");
-const Shape = require("./shape");
-const Circle = require("./circle");
+import React, { Component } from 'react';
+import Shape from './shape';
+import Circle from './circle';
+import '../styles/App.css'
 
- function App() {
-  return (
-    <div>
-    <Shape/>
-    <Circle/>
-    </div>
-  );
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return (
+            <div>
+                <Circle />
+                <Shape />
+            </div>
+        );
+    }
 }
-module.exports=App
+
+export default App;
