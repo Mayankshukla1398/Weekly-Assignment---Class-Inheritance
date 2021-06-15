@@ -1,14 +1,13 @@
-// export class using module.exports
-import React, { Component } from 'react';
+// import using require
+const shape=require("./shape")
+const react=require("react");
 
-import Shape from './shape'
-class Circle extends Shape {
-    constructor(props) {
-      super(props);
-  }
-  
-    render() {
-      return <div>{this.calculateArea()}</div>;
+// declare class
+class Circle extends shape {
+    calculateArea() {
+
     }
-  }
-  export default Circle;
+}
+
+module.exports = Circle;
+// export class using module.exports
