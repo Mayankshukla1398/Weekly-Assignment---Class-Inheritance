@@ -1,14 +1,13 @@
 import React from "react";
-var Shape = require('./shape');
-var Circle = require('./circle');
+import "../styles/App.css";
+const description =
+  "an app where you can order from local shop and pickup at set time to avoide queue";
 
-class App extends Circle{
+export default function App() {
   return (
     <div className="App">
-     <Shape/>
-     <Circle/>
+      <h1 data-ns-test="project-name">Local Grocery</h1>
+      <h3 data-ns-test="project-description">{description}</h3>
     </div>
   );
 }
-
-module.exports.App = App;
