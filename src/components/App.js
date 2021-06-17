@@ -1,4 +1,4 @@
-import React, {Component, useState} from "react";
+import React, {Component} from "react";
 import '../styles/App.css';
 
 class App extends Component {
@@ -7,6 +7,8 @@ class App extends Component {
         return(
             <div>
                //dont write anything here
+            <Shape/>
+            <Circle/>
             </div>
         )
     }
