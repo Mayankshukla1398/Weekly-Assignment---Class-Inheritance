@@ -1,20 +1,16 @@
-import React, { Component } from 'react';
-import Shape from './shape';
-import Circle from './circle';
-import '../styles/App.css'
+import React, {Component, useState} from "react";
+import '../styles/App.css';
 
-class App extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+class App extends Component {
     render() {
-        return (
+
+        return(
             <div>
-                <Circle />
-                <Shape />
+               //dont write anything here
             </div>
-        );
+        )
     }
 }
+
 
 export default App;
