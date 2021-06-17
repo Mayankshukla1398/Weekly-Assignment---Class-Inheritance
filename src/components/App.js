@@ -1,5 +1,5 @@
-import React, {Component} from "react";
-import '../styles/App.css';
+const React = require("react");
+const Styles =require('../styles/App.css');
 
 class App extends Component {
     render() {
@@ -15,4 +15,4 @@ class App extends Component {
 }
 
 
-export default App;
+module.exports = App;
