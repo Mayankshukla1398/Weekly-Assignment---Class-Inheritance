@@ -1,10 +1,13 @@
 // export class
-export default class Shape {
-  color = null;
-
-  constructor(color) {
-    this.color = color;
+// export class
+module.exports = class Shape {
+  constructor() {
+    this.color = "red";
   }
-  drawShape = function () {};
-  calculateArea = function () {};
-}
+  drawShape() {
+    console.log("Drawing a shape");
+  }
+  calculateArea() {
+    console.log("don't know area of unknow shape");
+  }
+};
