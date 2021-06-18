@@ -6,7 +6,7 @@ class App extends Component {
 
         return(
             <div>
-               //dont write anything here
+              
             <Shape/>
             <Circle/>
             </div>
