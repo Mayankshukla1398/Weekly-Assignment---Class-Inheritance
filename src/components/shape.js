@@ -1,5 +1,6 @@
 // export class
 // export class
+const React = require("react");
 module.exports = class Shape {
   constructor() {
     this.color = "red";
