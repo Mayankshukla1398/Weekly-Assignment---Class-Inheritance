@@ -1,20 +1,21 @@
-const React = require("react");
-const Styles =require('../styles/App.css');
-const Shape =require("./shape");
-const Circle =require("./circle");
+import React, { Component } from 'react';
+import Shape from './shape';
+import Circle from './circle';
+import '../styles/App.css'
+
+
 
 class App extends React.Component {
     render() {
 
         return(
             <div>
-              
-            <Shape/>
             <Circle/>
+            <Shape/>
             </div>
         )
     }
 }
 
 
-module.exports = App;
+export default App;
