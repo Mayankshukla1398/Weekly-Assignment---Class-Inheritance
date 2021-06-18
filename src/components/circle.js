@@ -1,5 +1,5 @@
 // import using require
-
+const React = require("react");
 const Shape =require("./shape");
 module.exports = class Circle extends Shape {
   constructor() {
