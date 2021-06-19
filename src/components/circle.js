@@ -1,7 +1,7 @@
 // import using require
-import React, { Component } from 'react';
-import Shape from './shape'
-class Circle extends Shape {
+const React = require("react");
+const Shape =require("./shape");
+module.exports = class Circle extends Shape {
   constructor() {
     super();
   }
@@ -9,4 +9,3 @@ class Circle extends Shape {
     console.log("Area of cirle");
   }
 };
- export default Circle;
