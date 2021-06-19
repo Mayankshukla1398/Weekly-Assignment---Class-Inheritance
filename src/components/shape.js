@@ -1,8 +1,8 @@
 // export class
 // export class
   
-import React, { Component } from "react";
-class Shape {
+const React = require("react");
+module.exports = class Shape {
   constructor() {
     this.color = "red";
   }
@@ -13,4 +13,3 @@ class Shape {
     console.log("don't know area of unknow shape");
   }
 };
-export default Shape;
